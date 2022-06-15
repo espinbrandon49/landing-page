@@ -4,38 +4,50 @@
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 .container {
-  width: 1200px;
+  width: 900px;
+  display: grid;
+  row-gap: 20px;
+  position: relative;
+  top: 100px;
   margin-left: auto;
   margin-right: auto;
-  display: grid;
-  row-gap: 30px;
+  justify-items: center;
 }
+
 header {
+  position: fixed;
   background-color: antiquewhite;
   display: grid;
   grid-auto-flow: column;
-  padding: 20px 30px 20px 30px;
+  top: 0px;
+  width: 900px;
+  padding: 20px;
+  z-index: 2;
 }
+
 nav {
   border: 2px solid black;
   background-color: aliceblue;
   display: grid;
   border-radius: 20px;
 }
+
 ul {
   display: grid;
   grid-auto-flow: column;
   justify-content: space-around;
   align-items: center;
 }
+
 li {
   list-style: none;
 }
+
 figure {
-  position: relative;
   margin-left: auto;
   margin-right: auto;
 }
+
 figcaption {
   background-color: black;
   color: white;
@@ -43,6 +55,7 @@ figcaption {
   padding: 2px;
   text-align: center;
 }
+
 img {
   width: 600px;
 }
@@ -58,16 +71,26 @@ form {
   padding: 20px;
 }
 
-label {
-    font-size: 20px;
+input {
+  height: 25px;
 }
+
+label {
+  font-size: 20px;
+}
+
 button {
   background-color: rgb(181, 233, 253);
+  padding: 5px;
+  font-size: 20px;
 }
 
 footer {
   background-color: antiquewhite;
   display: grid;
   justify-content: center;
-  padding: 20px;
+  align-items: center;
+  height: 70px;
+  width: 900px;
+  margin-bottom: 20px;
 }
