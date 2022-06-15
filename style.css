@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+header {
+  background-color: antiquewhite;
+  display: grid;
+  grid-auto-flow: column;
+}
+nav {
+  border: 1px solid black;
+  background-color: aliceblue;
+  
+}
+
+li {
+  list-style: none;
+}
+figure {
+  
+}
+img {
+  width: 400px;
+}
+
+form {
+  background-color: aliceblue;
+}
+button {
+  background-color: rgb(181, 233, 253);
+}
+
+footer {
+  background-color: antiquewhite;
+}
