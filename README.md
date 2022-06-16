@@ -7,7 +7,7 @@ The purpose of this project is to create an accessible web form to a given code 
 Deployed link: https://espinbrandon49.github.io/landing-page/
 
 Collaboration
-*Cohort
+*Chelse Burnham
 
 Credits 
 *Instructor Jerome Chennette
