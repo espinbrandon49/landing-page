@@ -23,7 +23,12 @@ header {
   top: 0px;
   width: 900px;
   z-index: 2;
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  justify-content: space-between;
+}
+h1 {
+    margin-left: 70px;
 }
 
 nav {
@@ -34,6 +39,8 @@ nav {
   align-content: center;
   align-self: center;
   height: 25px;
+  width: 300px;
+  margin-right: 70px;
 }
 
 ul {
